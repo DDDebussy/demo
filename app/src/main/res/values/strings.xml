@@ -1,0 +1,531 @@
+<resources>
+    <string name="app_name">回家吃饭</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--回家吃饭里的string-->
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="douban">豆瓣</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="email">邮件</string>
+    <string name="evernote">印象笔记</string>
+    <string name="facebook">Facebook</string>
+    <string name="flickr">Flickr</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="googleplus">Google+</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="kaixin">开心网</string>
+    <string name="line">Line</string>
+    <string name="line_client_inavailable">目前您的Line版本过低或未安装易信，需要安装Line才能使用</string>
+    <string name="linkedin">领英</string>
+    <string name="mingdao">明道</string>
+    <string name="mingdao_share_content">网页分享</string>
+    <string name="neteasemicroblog">网易微博</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="qq">QQ</string>
+    <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="qzone">QQ空间</string>
+    <string name="renren">人人网</string>
+    <string name="s_500words">500字</string>
+    <string name="s_address">地址</string>
+    <string name="s_address_add_noaddress">请填写详细地址，如街道、门牌号等</string>
+    <string name="s_address_add_nocity">请选择所在地区</string>
+    <string name="s_address_add_noname">请填写联系人</string>
+    <string name="s_address_add_nophone">请填写手机号码</string>
+    <string name="s_address_loading">正在初始化城市列表哦，请稍候...</string>
+    <string name="s_address_please_right_contact">请输入正确的联系人</string>
+    <string name="s_address_select_add">新增配送地址</string>
+    <string name="s_address_the_most">最多只能添加5个送餐地址</string>
+    <string name="s_age">读取中</string>
+    <string name="s_at">\@</string>
+    <string name="s_back">返回</string>
+    <string name="s_cancel">取消</string>
+    <string name="s_change_address_add_address">+添加就餐地址</string>
+    <string name="s_change_address_mine_address">我的就餐地址</string>
+    <string name="s_change_address_now_location">定位到当前位置</string>
+    <string name="s_change_address_search_kitchen">输入地址搜索周边厨房</string>
+    <string name="s_change_address_title_default">北京</string>
+    <string name="s_change_city">回家吃饭城市</string>
+    <string name="s_change_city_first_title">定位城市</string>
+    <string name="s_change_city_no_net">网络异常，点击空白重试</string>
+    <string name="s_change_city_no_open">当前城市未开通回家吃饭</string>
+    <string name="s_change_city_title">切换城市</string>
+    <string name="s_city_not_online">该城市未开通回家吃饭或无法获取具体位置</string>
+    <string name="s_comment_add_hint">"谈谈今天的菜品怎么样？
+您的评价对其他小伙伴很关键哦~"</string>
+    <string name="s_comment_image_not_ok">亲 图片还未上传完毕</string>
+    <string name="s_comment_ok">评论成功</string>
+    <string name="s_comment_ok_font">恭喜您获得了</string>
+    <string name="s_comment_ok_see_coupon">查看优惠券</string>
+    <string name="s_comment_select_star">请选择星级</string>
+    <string name="s_complaint">投诉厨房</string>
+    <string name="s_complaint_content_is_empty">投诉内容不能为空</string>
+    <string name="s_complaint_hint">请输入您的投诉内容，我们会尽快为您解决</string>
+    <string name="s_complaint_image_not_ok">亲，图片还未上传完毕</string>
+    <string name="s_complaint_up_pic">上传照片</string>
+    <string name="s_confirm_order_coupon">优惠券支付</string>
+    <string name="s_confirm_order_coupon_frozen">该券已被冻结,请选择其它券</string>
+    <string name="s_confirm_order_coupon_money">元优惠券</string>
+    <string name="s_confirm_order_coupon_out_time">该优惠券已过期</string>
+    <string name="s_confirm_order_eat_method">就餐方式</string>
+    <string name="s_confirm_order_eat_time">就餐时间</string>
+    <string name="s_confirm_order_no_eat_method">亲 请选择就餐方式</string>
+    <string name="s_confirm_order_no_eat_time">亲 请选择就餐时间</string>
+    <string name="s_confirm_order_no_yue">您现在没有余额哦</string>
+    <string name="s_confirm_order_pay">去支付</string>
+    <string name="s_confirm_order_risk_control_code_hint">请输入验证码</string>
+    <string name="s_confirm_order_title">确认订单</string>
+    <string name="s_confirm_order_verification_code_is_empty">请输入验证码</string>
+    <string name="s_confirm_order_word_kitchen">给厨房捎句话</string>
+    <string name="s_confirm_order_youhui_last">)</string>
+    <string name="s_confirm_order_youhui_pre">(已优惠￥</string>
+    <string name="s_confirm_order_yue">余额支付</string>
+    <string name="s_confirm_order_yue_use">元可用</string>
+    <string name="s_confirm_tui">确认退单</string>
+    <string name="s_coupon_bottom">本次不使用优惠券</string>
+    <string name="s_coupon_code_not_ok">优惠码不对哦</string>
+    <string name="s_coupon_input_text">请输入优惠码</string>
+    <string name="s_coupon_out_time">已过期</string>
+    <string name="s_discover_title">发现</string>
+    <string name="s_eat_method_title">就餐方式</string>
+    <string name="s_error_select_image_from_gallery">从相册中选取图片时出错</string>
+    <string name="s_exception">异常详情</string>
+    <string name="s_good_comment">好评</string>
+    <string name="s_have_pay_ok">支付成功</string>
+    <string name="s_have_talk_hint">给厨房捎句话～</string>
+    <string name="s_have_talk_title">捎句话</string>
+    <string name="s_have_teshu">亲 不支持特殊字符</string>
+    <string name="s_history_no_data">没有搜到相关厨房哦</string>
+    <string name="s_history_no_key">请输入搜索内容</string>
+    <string name="s_home_city">市</string>
+    <string name="s_home_default_location">116.47535026,39.90566245</string>
+    <string name="s_home_item_kitchen_address">地址精确到小区</string>
+    <string name="s_home_item_kitchen_distance">0米</string>
+    <string name="s_home_item_kitchen_eatsum">30人</string>
+    <string name="s_home_item_kitchen_font">品尝过</string>
+    <string name="s_home_item_kitchen_name">厨房名称</string>
+    <string name="s_home_item_kitchen_tag">标签1／标签2</string>
+    <string name="s_home_no_kitchen">没有找到厨房哦</string>
+    <string name="s_home_no_net_top">定位失败，请检查您的网络设置</string>
+    <string name="s_home_no_now_city">抱歉，您所在的城市尚未开通回家吃饭</string>
+    <string name="s_home_top_city_bj">北京</string>
+    <string name="s_home_top_city_gz">广州</string>
+    <string name="s_home_top_city_sh">上海</string>
+    <string name="s_home_top_location_loading">定位中...</string>
+    <string name="s_home_top_search">厨房名/菜名/菜系/地名</string>
+    <string name="s_kitchen_broadcast_title">家厨小广播</string>
+    <string name="s_kitchen_comment_add">晒单返券</string>
+    <string name="s_kitchen_comment_item_no_data">这是最后一个评论了哦～</string>
+    <string name="s_kitchen_comment_no_data">等你来发表吃货感言～</string>
+    <string name="s_kitchen_comment_no_data_new">"吃过邻家饭，要记得写几句哦
+家厨们期待你的评价呢"</string>
+    <string name="s_kitchen_detail_almost_heart">您已点过赞了</string>
+    <string name="s_kitchen_detail_comment">评论</string>
+    <string name="s_kitchen_detail_comment_zero">0条评论</string>
+    <string name="s_kitchen_detail_contain">可容纳：</string>
+    <string name="s_kitchen_detail_cooker_from">籍贯</string>
+    <string name="s_kitchen_detail_cooker_name">厨师姓名</string>
+    <string name="s_kitchen_detail_health">健康认证</string>
+    <string name="s_kitchen_detail_introduce">故事加载中</string>
+    <string name="s_kitchen_detail_kitchen_name">小匡厨房</string>
+    <string name="s_kitchen_detail_little_table_fen">份</string>
+    <string name="s_kitchen_detail_little_table_five">5人小饭桌</string>
+    <string name="s_kitchen_detail_little_table_other">还有</string>
+    <string name="s_kitchen_detail_little_table_shu">|</string>
+    <string name="s_kitchen_detail_little_table_taste">人品尝过</string>
+    <string name="s_kitchen_detail_little_table_three">3人小饭桌</string>
+    <string name="s_kitchen_detail_little_table_two">2人小饭桌</string>
+    <string name="s_kitchen_detail_littlt_table">小饭桌</string>
+    <string name="s_kitchen_detail_location">地址读取中</string>
+    <string name="s_kitchen_detail_menu">菜单</string>
+    <string name="s_kitchen_detail_meter">相距：</string>
+    <string name="s_kitchen_detail_open_font">开放厨房</string>
+    <string name="s_kitchen_detail_open_time">9:00 - 20:00</string>
+    <string name="s_kitchen_detail_order_fall">单满了</string>
+    <string name="s_kitchen_detail_pay">选好了</string>
+    <string name="s_kitchen_detail_phone">联系厨房</string>
+    <string name="s_kitchen_detail_rest">休息中</string>
+    <string name="s_kitchen_detail_rice">每份菜都赠米饭哦</string>
+    <string name="s_kitchen_detail_rice_string">粮油认证</string>
+    <string name="s_kitchen_detail_sell_out">今日售罄</string>
+    <string name="s_kitchen_detail_send_money">外送费：</string>
+    <string name="s_kitchen_detail_send_range">配送范围：</string>
+    <string name="s_kitchen_detail_send_word">配送说明：</string>
+    <string name="s_kitchen_detail_story_see_more">去看完整故事</string>
+    <string name="s_kitchen_detail_story_title">— 厨·房·故·事 —</string>
+    <string name="s_kitchen_detail_tag_get">取</string>
+    <string name="s_kitchen_detail_tag_home">堂</string>
+    <string name="s_kitchen_detail_tag_send">送</string>
+    <string name="s_kitchen_detail_today_order">今日就餐</string>
+    <string name="s_kitchen_detail_today_rest">休息中</string>
+    <string name="s_kitchen_detail_tomorrow">预订明日</string>
+    <string name="s_kitchen_detail_tomorrow_ding">预订明日</string>
+    <string name="s_kitchen_detail_tomorrow_only">可订明日</string>
+    <string name="s_kitchen_detail_tomorrow_rest">休息中</string>
+    <string name="s_kitchen_name_loading">厨房名加载中</string>
+    <string name="s_kitchen_story_auth">实名认证</string>
+    <string name="s_kitchen_story_health">健康证</string>
+    <string name="s_kitchen_story_see_more">显示更多</string>
+    <string name="s_kitchen_story_see_order">看看菜单</string>
+    <string name="s_kitchen_story_title">厨房故事</string>
+    <string name="s_listen_voice">接听</string>
+    <string name="s_listview_load_more">努力加载中...</string>
+    <string name="s_little_table_five">五人桌</string>
+    <string name="s_little_table_item_nodata">没有小饭桌了呢～</string>
+    <string name="s_little_table_three">三人桌</string>
+    <string name="s_little_table_title">小饭桌</string>
+    <string name="s_little_table_two">两人桌</string>
+    <string name="s_loading">加载中</string>
+    <string name="s_loading_text">真材实料 认证厨房</string>
+    <string name="s_login">登录</string>
+    <string name="s_login_code_get_code">获取验证码</string>
+    <string name="s_login_code_hint_code">输入验证码</string>
+    <string name="s_login_code_hint_phone">输入手机号</string>
+    <string name="s_login_code_hint_psw">输入密码</string>
+    <string name="s_login_code_login">验证码登录</string>
+    <string name="s_login_find_psw">找回密码</string>
+    <string name="s_login_please_enter_code">请输入验证码</string>
+    <string name="s_login_please_enter_phone">请输入手机号</string>
+    <string name="s_login_please_enter_psw">请输入密码</string>
+    <string name="s_login_please_enter_pswre">密码不能为空</string>
+    <string name="s_login_please_right_phone">请输入正确手机号</string>
+    <string name="s_login_psw">密码登录</string>
+    <string name="s_login_psw_login">验证码登录</string>
+    <string name="s_login_psw_login_pre">没有账户？</string>
+    <string name="s_login_psw_pre">已有账户？</string>
+    <string name="s_login_set_psw">设置密码</string>
+    <string name="s_login_set_psw_alert">密码应为6-12位数字、字母</string>
+    <string name="s_login_set_psw_bottom">确认密码</string>
+    <string name="s_login_set_psw_confirm">完成</string>
+    <string name="s_login_set_psw_hint">设置6-12位数字、字母或组合密码</string>
+    <string name="s_login_set_psw_pre">先点餐</string>
+    <string name="s_login_set_psw_top">设置6-12位数字、字母或组合密码</string>
+    <string name="s_login_set_psw_xia">下次设置，</string>
+    <string name="s_login_xieyi">用户协议</string>
+    <string name="s_login_xieyi_pre">点击登录，即表示您同意</string>
+    <string name="s_main_home_item_nodata">这是最后一个厨房了哦～</string>
+    <string name="s_main_home_select_tag">可选类别</string>
+    <string name="s_main_home_select_today">今日推荐</string>
+    <string name="s_man">读取中</string>
+    <string name="s_menu_detail_comment">饭友说</string>
+    <string name="s_mine_aboutus">关于回家吃饭</string>
+    <string name="s_mine_adderss_edit">编辑</string>
+    <string name="s_mine_address">送餐地址</string>
+    <string name="s_mine_address_add">添加新地址</string>
+    <string name="s_mine_address_add_text">新增地址</string>
+    <string name="s_mine_address_add_title">新增就餐地址</string>
+    <string name="s_mine_address_delete">删除</string>
+    <string name="s_mine_address_edit_address">详细地址</string>
+    <string name="s_mine_address_edit_factory">公司</string>
+    <string name="s_mine_address_edit_home">家</string>
+    <string name="s_mine_address_edit_location">所在地区</string>
+    <string name="s_mine_address_edit_person">联系人</string>
+    <string name="s_mine_address_edit_phone">手机号码</string>
+    <string name="s_mine_address_edit_tag">给地址加个标签，下次选地址更加方便哦～</string>
+    <string name="s_mine_address_no_data">添加地址，才能找到你哦～</string>
+    <string name="s_mine_address_out">超出配送范围地址</string>
+    <string name="s_mine_address_send">配送</string>
+    <string name="s_mine_address_title">送餐地址</string>
+    <string name="s_mine_coupon_edit_title">编辑地址</string>
+    <string name="s_mine_coupon_timeout">10天后过期</string>
+    <string name="s_mine_coupon_title">优惠券</string>
+    <string name="s_mine_detail">我的资料</string>
+    <string name="s_mine_detail_age">年龄</string>
+    <string name="s_mine_detail_nickname">昵称</string>
+    <string name="s_mine_detail_pic_not_ok">头像上传不成功，请重试</string>
+    <string name="s_mine_detail_pic_ok">头像上传成功</string>
+    <string name="s_mine_detail_pw_age_60">60后</string>
+    <string name="s_mine_detail_pw_age_70">70后</string>
+    <string name="s_mine_detail_pw_age_80">80后</string>
+    <string name="s_mine_detail_pw_age_90">90后</string>
+    <string name="s_mine_detail_pw_pic_camera">相机拍摄</string>
+    <string name="s_mine_detail_pw_pic_photo">相册选择</string>
+    <string name="s_mine_detail_save">保存</string>
+    <string name="s_mine_detail_saveing">信息保存中...</string>
+    <string name="s_mine_detail_sex">性别</string>
+    <string name="s_mine_detail_title">详细资料</string>
+    <string name="s_mine_detail_work">职业</string>
+    <string name="s_mine_favourite_no_data">去关注个厨房吧～</string>
+    <string name="s_mine_favourite_title">我的关注</string>
+    <string name="s_mine_invite_user">邀请小伙伴吃饭</string>
+    <string name="s_mine_like">我的关注</string>
+    <string name="s_mine_login">登录</string>
+    <string name="s_mine_login_msg">您尚未登录，点击登录</string>
+    <string name="s_mine_message">我的消息</string>
+    <string name="s_mine_message_alert">通知</string>
+    <string name="s_mine_message_alert_no_data">没有通知～</string>
+    <string name="s_mine_message_back">家厨回复</string>
+    <string name="s_mine_message_comment">评论</string>
+    <string name="s_mine_message_title">消息</string>
+    <string name="s_mine_money">我的钱包</string>
+    <string name="s_mine_option_check_new_version">检查新版本</string>
+    <string name="s_mine_option_logout">注销登录</string>
+    <string name="s_mine_option_mianze">免责声明</string>
+    <string name="s_mine_option_set_psw">登录密码</string>
+    <string name="s_mine_option_title">设置</string>
+    <string name="s_mine_order">我的订单</string>
+    <string name="s_mine_order_comment">待评论</string>
+    <string name="s_mine_order_item_all_money">总计：</string>
+    <string name="s_mine_order_item_all_money_new">实际支付：</string>
+    <string name="s_mine_order_item_eat_method">就餐方式：</string>
+    <string name="s_mine_order_item_nodata">这是最后一个订单了哦～</string>
+    <string name="s_mine_order_item_top_order_time">下单时间：</string>
+    <string name="s_mine_order_loading">进行中</string>
+    <string name="s_mine_order_no_data">这里还没有订单呢～</string>
+    <string name="s_mine_order_not_ok">未完成</string>
+    <string name="s_mine_order_ok">已完成</string>
+    <string name="s_mine_order_title">我的订单</string>
+    <string name="s_mine_order_tui">退款</string>
+    <string name="s_mine_phone">400-087-7700</string>
+    <string name="s_mine_title">我的</string>
+    <string name="s_mine_wallet_call">余额如需退回可拨打客服电话</string>
+    <string name="s_mine_wallet_timeout">张</string>
+    <string name="s_mine_wallet_title">我的钱包</string>
+    <string name="s_mine_wallet_yue">余额</string>
+    <string name="s_mine_want_cook">我要做饭</string>
+    <string name="s_money">￥</string>
+    <string name="s_money_yibai">20元</string>
+    <string name="s_money_yuan">元</string>
+    <string name="s_money_zero">.00</string>
+    <string name="s_nan">男</string>
+    <string name="s_no_dish">您还没有选择菜品</string>
+    <string name="s_no_net">网络异常，请检测网络状况</string>
+    <string name="s_no_net_click">轻触空白处加载</string>
+    <string name="s_no_net_word">饭友，你好像站到了信号背面～</string>
+    <string name="s_no_stock">已经没有库存啦</string>
+    <string name="s_not_have_utoken">登录失效，请重新登录</string>
+    <string name="s_nv">女</string>
+    <string name="s_option_call_back">意见反馈</string>
+    <string name="s_option_logout">注销登录成功</string>
+    <string name="s_option_not_login">您还未登录哦</string>
+    <string name="s_option_point">给我们打分</string>
+    <string name="s_order_comment_express">本订单由 %s 提供配送服务</string>
+    <string name="s_order_comment_express_desc">配送评价</string>
+    <string name="s_order_comment_hint">饭友，写下你的吃货感言吧～</string>
+    <string name="s_order_comment_kitchen_desc">给%s打个分吧：</string>
+    <string name="s_order_comment_ok">提交</string>
+    <string name="s_order_comment_praise">给好吃的菜点个赞吧！</string>
+    <string name="s_order_comment_title">发表评论</string>
+    <string name="s_order_comment_up_pic">上传照片</string>
+    <string name="s_order_comment_word_count">60字</string>
+    <string name="s_order_detail_call">联系厨房</string>
+    <string name="s_order_detail_comment">评论</string>
+    <string name="s_order_detail_detail">订单详情</string>
+    <string name="s_order_detail_eat">我已就餐</string>
+    <string name="s_order_detail_no_coupon">无可用优惠券</string>
+    <string name="s_order_detail_pay">去支付（剩余时间0分钟）</string>
+    <string name="s_order_detail_pay_ok">已支付</string>
+    <string name="s_order_detail_pay_tui_ing">退款中</string>
+    <string name="s_order_detail_pay_tui_ok">已退款</string>
+    <string name="s_order_detail_refuse_reason">亲 很抱歉，厨房已拒绝此单</string>
+    <string name="s_order_detail_reorder">再次下单</string>
+    <string name="s_order_detail_status">订单状态</string>
+    <string name="s_order_detail_title">订单详情</string>
+    <string name="s_order_detail_tui">我要退单</string>
+    <string name="s_order_detail_tui_builder">家厨正忙着做饭，接单可能会有延迟～</string>
+    <string name="s_order_detail_tui_refuse">退款</string>
+    <string name="s_order_detail_wait_pay">待付款</string>
+    <string name="s_pay_money_alipay">支付宝支付</string>
+    <string name="s_pay_money_title">支付收银台</string>
+    <string name="s_pay_money_weixin">微信支付</string>
+    <string name="s_pay_ok_back_main">返回首页</string>
+    <string name="s_pay_ok_no">未成功支付</string>
+    <string name="s_pay_ok_no_order">亲 您的订单未支付成功</string>
+    <string name="s_pay_ok_see_order">查看订单</string>
+    <string name="s_phone">135****1371</string>
+    <string name="s_please_input_contact">请输入正确联系人</string>
+    <string name="s_please_not_enter_te">请勿输入特殊字符</string>
+    <string name="s_pull_refresh_word1">小锅小灶，打开你的味蕊</string>
+    <string name="s_pull_refresh_word2">实地考察，让您吃得放心</string>
+    <string name="s_pull_refresh_word3">粮油直供，饭菜安心</string>
+    <string name="s_pull_refresh_word4">实名认证，确保真人家厨</string>
+    <string name="s_search_history">历史记录</string>
+    <string name="s_search_history_clear">清空历史记录</string>
+    <string name="s_search_hot">热门搜索</string>
+    <string name="s_search_hot_new">周边推荐</string>
+    <string name="s_search_no_kitchen">您找的厨房不在呀～</string>
+    <string name="s_search_no_result">抱歉 没有相关搜索结果</string>
+    <string name="s_search_search">搜索</string>
+    <string name="s_search_test_name">华普私厨小菜</string>
+    <string name="s_select_address_top">小区/大厦/学校/街道</string>
+    <string name="s_select_city">选择城市</string>
+    <string name="s_select_image_from_gallery">从相册中选取</string>
+    <string name="s_select_time1">10:00</string>
+    <string name="s_select_time10">14:30</string>
+    <string name="s_select_time11">15:00</string>
+    <string name="s_select_time12">15:30</string>
+    <string name="s_select_time13">16:00</string>
+    <string name="s_select_time14">16:30</string>
+    <string name="s_select_time15">17:00</string>
+    <string name="s_select_time16">17:30</string>
+    <string name="s_select_time17">18:00</string>
+    <string name="s_select_time18">18:30</string>
+    <string name="s_select_time19">19:00</string>
+    <string name="s_select_time2">10:30</string>
+    <string name="s_select_time20">19:30</string>
+    <string name="s_select_time21">20:00</string>
+    <string name="s_select_time22">20:30</string>
+    <string name="s_select_time23">21:00</string>
+    <string name="s_select_time24">21:30</string>
+    <string name="s_select_time3">11:00</string>
+    <string name="s_select_time4">11:30</string>
+    <string name="s_select_time5">12:00</string>
+    <string name="s_select_time6">12:30</string>
+    <string name="s_select_time7">13:00</string>
+    <string name="s_select_time8">13:30</string>
+    <string name="s_select_time9">14:00</string>
+    <string name="s_select_time_time">今天 1月20日 星期二</string>
+    <string name="s_select_time_title">选择时间</string>
+    <string name="s_set_psw_not_equals">两次输入的密码不一致</string>
+    <string name="s_set_psw_out_font">密码格式错误</string>
+    <string name="s_submit">提交</string>
+    <string name="s_take_photo">拍照</string>
+    <string name="s_test_comment">大学城新开的奶茶店。抹茶永远不会错。现在就剩下明天上午的speakingtest啦！！</string>
+    <string name="s_test_comment_reply">[家厨回复] 大学城新开的奶茶店。抹茶永远不会错。现在就剩下明天上午的speakingtest啦！！</string>
+    <string name="s_time">2015/02/14 19:00</string>
+    <string name="s_tui_reason_hint">请输入您的退单理由</string>
+    <string name="s_user_call_back_no_emoj">请不要输入表情哦~</string>
+    <string name="s_user_callback_hint">请留下您的宝贵意见和建议，我们将尽快改进，把最好的体验带给您！</string>
+    <string name="s_want_cook_btn">我要成为私家大厨</string>
+    <string name="s_want_cook_contact">亲 我们会尽快和您联系</string>
+    <string name="s_want_cook_title">私家大厨征集</string>
+    <string name="s_want_cook_word1">你想成为我们的私家大厨吗？</string>
+    <string name="s_want_cook_word2">那就快快提交您的个人信息吧！</string>
+    <string name="s_work">读取中</string>
+    <string name="share_to_mingdao">分享到明道</string>
+    <string name="share_to_qq">分享到QQ</string>
+    <string name="share_to_qzone">分享到QQ空间</string>
+    <string name="share_to_qzone_default">来自%s的分享</string>
+    <string name="shortmessage">信息</string>
+    <string name="sinaweibo">新浪微博</string>
+    <string name="sohumicroblog">搜狐微博</string>
+    <string name="sohusuishenkan">搜狐随身看</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tencentweibo">腾讯微博</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="twitter">Twitter</string>
+    <string name="use_login_button">请改用“登录”按钮</string>
+    <string name="vkontakte">VK</string>
+    <string name="website">http://www.shareSDK.cn</string>
+    <string name="wechat">微信好友</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="wechatfavorite">微信收藏</string>
+    <string name="wechatmoments">微信朋友圈</string>
+    <string name="weibo_oauth_regiseter">应用授权</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <string name="yixin">易信</string>
+    <string name="yixin_client_inavailable">目前您的易信版本过低或未安装易信，需要安装易信才能使用</string>
+    <string name="yixinmoments">易信朋友圈</string>
+    <string name="youdao">有道云笔记</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearlayout_item_cuisine_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageview_meishi_all_cuisine"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:src="@mipmap/meishi"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageview_icon_all_cuisine"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@mipmap/meishi"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/textview_canguan_name_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="飘香小馆"
+                />
+            <TextView
+                android:id="@+id/textview_distance_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.1千米"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="健康/实名认证"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="2273好评"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="拿手菜，俄罗斯羊肉抓饭"
+        />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textview_bottom_item"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="这已经是最后一项了"
+        android:textColor="@color/titleRed"
+        android:visibility="gone"
+        />
+</LinearLayout>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appbar_height"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="我的"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <include layout="@layout/common_orange_line" />
+
+    <RelativeLayout
+        android:id="@+id/relative_user_mine"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleimgageview_user_header_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/hj_round_image" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/circleimgageview_user_header_icon"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/text_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="饭友12306"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/text_user_job"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="待完善"
+                android:textColor="@color/gray"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/hj_mine_angle_nol" />
+    </RelativeLayout>
+
+    <include layout="@layout/common_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <include layout="@layout/common_line" />
+
+
+    <RelativeLayout
+        android:id="@+id/relative_user_order"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/img_user_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/hj_mine_order"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img_user_order"
+            android:paddingLeft="6dp"
+            android:text="我的订单"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/hj_mine_comment_item_angle" />
+    </RelativeLayout>
+
+    <include layout="@layout/common_short_line" />
+
+    <RelativeLayout
+        android:id="@+id/relative_user_favour"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/img_user_favour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/hj_mine_favour"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="我的关注"
+            android:layout_toRightOf="@+id/img_user_favour"
+            android:paddingLeft="6dp"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/hj_mine_comment_item_angle" />
+    </RelativeLayout>
+    <include layout="@layout/common_short_line" />
+    <RelativeLayout
+        android:id="@+id/relative_user_address"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/img_user_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/hj_mine_address"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img_user_address"
+            android:paddingLeft="6dp"
+            android:text="送餐地址"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/hj_mine_comment_item_angle" />
+    </RelativeLayout>
+    <include layout="@layout/common_line" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <include layout="@layout/common_line" />
+    <RelativeLayout
+        android:id="@+id/relative_user_check_setting"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:text="设置"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/hj_mine_comment_item_angle" />
+    </RelativeLayout>
+    <include layout="@layout/common_short_line" />
+    <RelativeLayout
+        android:id="@+id/relative_user_invite"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:text="邀请小伙伴吃饭"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/hj_mine_comment_item_angle" />
+    </RelativeLayout>
+    <include layout="@layout/common_line" />
+
+</LinearLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.channelsoft.sample.activity.user.settting.Settting">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appbar_height"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/img_user_setting_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:src="@mipmap/hj_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="设置"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/common_orange_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></LinearLayout>
+
+    <include layout="@layout/common_line" />
+
+    <RelativeLayout
+        android:id="@+id/relative_user_password"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/img_user_order"
+            android:padding="6dp"
+            android:text="登录密码"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/hj_mine_comment_item_angle" />
+    </RelativeLayout>
+
+    <include layout="@layout/common_short_line" />
+
+    <RelativeLayout
+        android:id="@+id/relative_user_check_update"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/img_user_order"
+            android:padding="6dp"
+            android:text="检查新版本"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/hj_mine_comment_item_angle" />
+    </RelativeLayout>
+
+    <include layout="@layout/common_short_line" />
+
+    <RelativeLayout
+        android:id="@+id/relative_user_statement"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/img_user_order"
+            android:padding="6dp"
+            android:text="免责声明"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/hj_mine_comment_item_angle" />
+    </RelativeLayout>
+
+    <include layout="@layout/common_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></LinearLayout>
+
+    <include layout="@layout/common_line" />
+
+    <RelativeLayout
+        android:id="@+id/relative_user_evalute"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/img_user_order"
+            android:padding="6dp"
+            android:text="给我们打分"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/hj_mine_comment_item_angle" />
+    </RelativeLayout>
+
+    <include layout="@layout/common_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"></LinearLayout>
+
+    <include layout="@layout/common_orange_line"/>
+    <RelativeLayout
+        android:id="@+id/relative_user_sign_out"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/img_user_order"
+            android:padding="6dp"
+            android:textColor="@color/homeBottomOrange"
+            android:text="注销登陆"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.channelsoft.sample.activity.user.MyFavourActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appbar_height"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/img_user_favour_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:src="@mipmap/hj_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="我的关注"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/common_orange_line" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_favour"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        </android.support.v7.widget.RecyclerView>
+        <ProgressBar
+            android:id="@+id/progressbar_user_favour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.channelsoft.sample.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_content"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <!-- 线-->
+    <include layout="@layout/common_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/linear_home_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_home_page"
+                android:layout_width="29dp"
+                android:layout_height="29dp"
+                android:background="@drawable/check_home_page"
+                android:button="@null"
+                android:checked="true"
+                android:clickable="false"
+                android:paddingBottom="20dp"
+                android:focusable="false" />
+
+            <TextView
+                android:id="@+id/text_home_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:textSize="10sp"
+                android:text="首页" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_discovery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_discovery"
+                android:layout_width="29dp"
+                android:layout_height="29dp"
+                android:background="@drawable/check_discovery"
+                android:button="@null"
+                android:clickable="false"
+                android:paddingBottom="20dp"
+                android:focusable="false" />
+
+            <TextView
+                android:id="@+id/text_discovery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:textSize="10sp"
+                android:text="发现" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_user"
+                android:layout_width="29dp"
+                android:layout_height="29dp"
+                android:background="@drawable/check_user"
+                android:button="@null"
+                android:paddingBottom="20dp"
+                android:clickable="false"
+                android:focusable="false"
+
+                />
+
+            <TextView
+                android:id="@+id/text_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:textSize="10sp"
+                android:text="我的" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

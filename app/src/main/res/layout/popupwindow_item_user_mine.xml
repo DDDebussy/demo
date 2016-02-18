@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/common_line"/>
+    <RelativeLayout
+        android:id="@+id/relative_popupwindow_user_mine_item_carema"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/titleTextSize"
+            android:text="相机"/>
+    </RelativeLayout>
+
+    <include layout="@layout/common_line"/>
+    <RelativeLayout
+        android:id="@+id/relative_popupwindow_user_mine_item_pictures"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/titleTextSize"
+            android:text="打开相册"/>
+    </RelativeLayout>
+    <include layout="@layout/common_line"/>
+    <RelativeLayout
+        android:id="@+id/relative_popupwindow_user_mine_item_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/titleTextSize"
+            android:text="取消"/>
+    </RelativeLayout>
+</LinearLayout>

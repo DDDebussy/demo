@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="25dp"
+    android:paddingRight="15dp"
+    android:background="@color/white"
+    android:layout_marginBottom="10dp">
+    <TextView
+        android:id="@+id/text_address_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/gray"
+        android:text="姓名"/>
+    <TextView
+        android:id="@+id/text_address_item_tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_address_item_name"
+        android:textColor="@color/gray"
+        android:textSize="15sp"
+        android:text="电话"/>
+    <TextView
+        android:id="@+id/text_address_item_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_address_item_tel"
+        android:textColor="@color/gray"
+        android:textSize="15sp"
+        android:text="地址"/>
+    <ImageView
+        android:id="@+id/img_address_item_edit"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/hj_mine_address_edit"/>
+</RelativeLayout>
+</LinearLayout>

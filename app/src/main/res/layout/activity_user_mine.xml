@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.channelsoft.sample.activity.user.UserMineActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appbar_height"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/img_user_mine_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:src="@mipmap/hj_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="我的资料"
+            android:textSize="@dimen/titleTextSize" />
+
+        <TextView
+            android:id="@+id/text_user_mine_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:padding="10dp"
+            android:text="保存"
+            android:textColor="@color/homeBottomOrange"
+            android:textSize="@dimen/titleTextSize" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/common_orange_line" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progressbar_user_mine_save"
+                style="@style/tallerBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:max="100"
+                android:progress="0"
+                android:visibility="invisible" />
+            <RelativeLayout
+                android:id="@+id/relativew_user_mine_header"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circleimageview_user_mine_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:src="@mipmap/ic_launcher" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignBottom="@+id/circleimageview_user_mine_header"
+                    android:layout_alignRight="@+id/circleimageview_user_mine_header"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/hj_mine_detail_camera" />
+            </RelativeLayout>
+
+            <include layout="@layout/common_line" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="25dp"
+                    android:text="昵称"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edit_user_mine_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:padding="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@null"
+                    android:textColor="@color/gray"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <include layout="@layout/common_short_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="25dp"
+                    android:text="性别"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/text_user_mine_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/img_user_mine_sex"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:textColor="@color/gray"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:id="@+id/img_user_mine_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:src="@mipmap/hj_mine_comment_item_angle" />
+            </RelativeLayout>
+
+            <include layout="@layout/common_short_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="25dp"
+                    android:text="年龄"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/text_user_mine_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/img_user_mine_age"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:textColor="@color/gray"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:id="@+id/img_user_mine_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:src="@mipmap/hj_mine_comment_item_angle" />
+            </RelativeLayout>
+
+            <include layout="@layout/common_short_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="25dp"
+                    android:text="职业"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edit_user_mine_job"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@null"
+                    android:textColor="@color/gray"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <include layout="@layout/common_line" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_user_mine_hint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/alphablue"
+            android:orientation="vertical"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/text_user_mine_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:visibility="invisible" />
+</LinearLayout>

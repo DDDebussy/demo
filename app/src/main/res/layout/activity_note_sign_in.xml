@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.channelsoft.sample.activity.user.signin.NoteSignIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/appbar_height"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/img_note_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:src="@mipmap/hj_login_close" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/hj_login_code_img" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <EditText
+                    android:id="@+id/edit_note_sign_in_tel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:layout_centerVertical="true"
+                    android:digits="1234567890."
+                    android:singleLine="true"
+                    android:hint="输入手机号"
+                    />
+            </RelativeLayout>
+            <include layout="@layout/common_line"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <EditText
+                    android:id="@+id/edit_note_sign_in_note"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:layout_centerVertical="true"
+                    android:digits="1234567890."
+                    android:singleLine="true"
+                    android:hint="输入验证码"/>
+                <Button
+                    android:id="@+id/button_note_sign_in_get_note"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="获取验证码"
+                    android:textColor="@color/homeBottomOrange"
+                    android:background="@mipmap/hj_tui_reason_back_nol"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <include layout="@layout/common_line"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <Button
+                android:id="@+id/button_note_sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:text="验证码登陆"
+                android:textColor="@color/white"
+                android:background="@drawable/login_button" />
+            <TextView
+                android:id="@+id/text_note_sign_in_turn_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/homeBottomOrange"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                android:layout_below="@+id/button_note_sign_in"
+                android:layout_alignParentRight="true"
+                android:text="密码登录"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

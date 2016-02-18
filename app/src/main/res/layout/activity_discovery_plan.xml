@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.channelsoft.sample.activity.discovery.Plan">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appbar_height"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/img_discovery_plan_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/hj_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="分享计划"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/img_discovery_plan_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/hj_kitchen_detail_share"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:layout_marginRight="5dp"/>
+
+    </RelativeLayout>
+    <include layout="@layout/common_orange_line" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/linear_discovery_hint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/alphablue"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/text_discovery_plan"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:visibility="invisible"/>
+</LinearLayout>

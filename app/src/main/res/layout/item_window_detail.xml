@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout_window"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+    <TextView
+        android:id="@+id/textview_cai_detail_window"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="米饭" />
+
+    <TextView
+        android:id="@+id/textview_caiqian_detail_window"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0元" />
+
+    <ImageView
+        android:id="@+id/imageview_sub_detail_window"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="45dp"
+        android:src="@mipmap/hj_kitchen_detail_minus" />
+
+    <TextView
+        android:id="@+id/textview_num_detail_window"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="1" />
+
+    <ImageView
+        android:id="@+id/imageview_add_detail_window"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginRight="20dp"
+        android:src="@mipmap/hj_kitchen_detail_add" />
+</LinearLayout>

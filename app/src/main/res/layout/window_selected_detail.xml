@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_window"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/homeBottomOrange"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:src="@mipmap/hj_kitchen_detail_bottom_car_img"
+                android:background="@color/white"
+                />
+            <TextView
+                android:id="@+id/textview_price_activity_detail_window"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="0"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/textview_ok_detial_window"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选好了"
+                android:padding="15dp"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>
